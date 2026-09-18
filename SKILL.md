@@ -1,3 +1,9 @@
+---
+name: frameworks
+description: >
+  > Internal engine rules — condensed from the ROSTR Framework (canonical source: https://rostr-paper.vercel.app). These shape how the work is done. **The terminology never appears in user-facing documents** — the Brief and Leadership Summary use plain English (blocker, friction, core work, nice-to-ha Use this skill when working with frameworks tasks or workflows.
+---
+
 # Frameworks (Reference)
 
 > Internal engine rules — condensed from the ROSTR Framework (canonical source: https://rostr-paper.vercel.app). These shape how the work is done. **The terminology never appears in user-facing documents** — the Brief and Leadership Summary use plain English (blocker, friction, core work, nice-to-have).
@@ -11,7 +17,7 @@ Every intake runs through a 5-stage compile before anything is generated. Silent
 | Stage | What happens |
 |---|---|
 | **1. Intent** | Parse the raw input into: what they want, domain, subject, constraints, desired output, urgency, ambiguity score |
-| **2. Context** | Inject the top 3–5 relevant items: session files, memory, {{COMPANY_NAME}} auto-context, available skills, prior decisions |
+| **2. Context** | Inject the top 3–5 relevant items: session files, memory, Enterprise Platform auto-context, available skills, prior decisions |
 | **3. Composition** | Structure the compiled instruction: ROLE → MISSION → INPUTS → OUTPUTS → STEPS → TOOLS → CONSTRAINTS → QUALITY BAR → CONTEXT |
 | **4. Optimization** | Cut redundancy, resolve conflicts, make every step verb-first and testable |
 | **5. Runtime** | Emit the Master Build Prompt into the Build Plan; route follow-on work to the right skill/tool |
@@ -96,7 +102,7 @@ When a Handoff Package is executed autonomously, the Builder always pauses at:
 | **G3** | Unconfirmed API hit at runtime | Show API Readiness block; never substitute a tool silently |
 | **G4** | Ambiguous, scope-altering decision | Ask exactly one question; never guess |
 
-The user sees clean approve/modify prompts and a per-task status feed — not raw logs. Append each major step and gate to `/{{COMPANY_NAME}} Projects/RUN_LOG.md`:
+The user sees clean approve/modify prompts and a per-task status feed — not raw logs. Append each major step and gate to `/Enterprise Platform Projects/RUN_LOG.md`:
 
 ```
 | Timestamp | Project | Step/Gate | Status | Output | Next |
